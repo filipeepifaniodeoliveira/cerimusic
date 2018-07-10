@@ -1,0 +1,39 @@
+{
+    "title": "Site Cerimusic",
+    "name": "cerimusic",
+    "version": "4.1.1",
+    "description": "Site Oficial Cerimusic",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://cerimusic.com.br/",
+    "bugs": {
+        "url": "https://github.com/filipeepifaniodeoliveira/cerimusic.git/issues",
+        "email": "filipeepifanio1991@gmail.com"
+    },
+    "license": "MIT",
+    "author": "Filipe Epifanio",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/filipeepifaniodeoliveira/cerimusic.git"
+    },
+    "dependencies": {
+        "bootstrap": "4.1.1",
+        "jquery": "3.3.1",
+        "devicons": "^1.8.0",
+        "simple-line-icons": "^2.4.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.24.3",
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "3.9.4",
+        "gulp-header": "2.0.5",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "4.0.1"
+    }
+}
