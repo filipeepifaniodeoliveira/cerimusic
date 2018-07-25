@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Business Casual v4.1.1 (https://startbootstrap.com/template-overviews/business-casual)
- * Copyright 2013-2018 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
+ * Start Bootstrap - Site Cerimusic v4.1.1 (https://cerimusic.com.br/)
+ * Copyright 2013-2018 Filipe Epifanio
+ * Licensed under MIT (https://github.com/BlackrockDigital/cerimusic/blob/master/LICENSE)
  */
 body {
   font-family: 'Lora';
@@ -144,7 +144,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #D2B48C;
+  background-color: rgba(210, 180, 140, 0.9);
 }
 
 .cta .cta-inner {
@@ -155,12 +155,14 @@ p {
 }
 
 .cta .cta-inner:before {
+  border-radius: 0.5rem;
   content: '';
   position: absolute;
   top: -0.5rem;
   bottom: -0.5rem;
   left: -0.5rem;
   right: -0.5rem;
+  border: 0.25rem solid rgba(255, 255, 255, 0.85);
 }
 
 @media (min-width: 992px) {
@@ -199,7 +201,7 @@ p {
 }
 
 .list-hours .list-hours-item {
-  border-bottom: 1px solid #D2B48C;
+  border-bottom: 1px solid rgba(210, 180, 140, 0.5);
   padding-bottom: .25rem;
   margin-bottom: 1rem;
   font-style: italic;
@@ -243,8 +245,8 @@ p {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #df902a;
-  border-color: #df902a;
+  background-color: #c49c67;
+  border-color: #c49c67;
 }
 
 .font-weight-light {
